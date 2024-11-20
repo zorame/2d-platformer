@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/c#/2d platformer/2d platformer/Content/enemy sprite.png","E:/c#/2d platformer/2d platformer/Content/bin/DesktopGL/enemy.xnb","TextureProcessor","Texture2DContent",342,4181,0,1418649
+"E:/c#/2d platformer/2d platformer/Content/Sprite-0001.png","E:/c#/2d platformer/2d platformer/Content/bin/DesktopGL/Sprite-0001.xnb","TextureProcessor","Texture2DContent",712,65621,0,0350509

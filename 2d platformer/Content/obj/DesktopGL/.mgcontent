@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/c#/2d platformer/2d platformer/Content/enemy sprite.png</File>
+    <File>E:/c#/2d platformer/2d platformer/Content/mainchar.png</File>
+    <File>E:/c#/2d platformer/2d platformer/Content/Sprite-0001.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>enemy.png</File>
+    <File>player.png</File>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

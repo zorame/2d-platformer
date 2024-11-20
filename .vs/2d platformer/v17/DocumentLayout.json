@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c#\\2d platformer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|e:\\c#\\2d platformer\\2d platformer\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|E:\\c#\\2d platformer\\2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|E:\\c#\\2d platformer\\2d platformer\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\animatedsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|E:\\c#\\2d platformer\\2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\c#\\2d platformer\\2d platformer\\Player.cs",
+              "RelativeDocumentMoniker": "2d platformer\\Player.cs",
+              "ToolTip": "E:\\c#\\2d platformer\\2d platformer\\Player.cs",
+              "RelativeToolTip": "2d platformer\\Player.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:13:35.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimatedSprite.cs",
+              "DocumentMoniker": "E:\\c#\\2d platformer\\2d platformer\\AnimatedSprite.cs",
+              "RelativeDocumentMoniker": "2d platformer\\AnimatedSprite.cs",
+              "ToolTip": "E:\\c#\\2d platformer\\2d platformer\\AnimatedSprite.cs",
+              "RelativeToolTip": "2d platformer\\AnimatedSprite.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:01:31.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "E:\\c#\\2d platformer\\2d platformer\\Game1.cs",
+              "RelativeDocumentMoniker": "2d platformer\\Game1.cs",
+              "ToolTip": "E:\\c#\\2d platformer\\2d platformer\\Game1.cs",
+              "RelativeToolTip": "2d platformer\\Game1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:13:51.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sprite.cs",
+              "DocumentMoniker": "E:\\c#\\2d platformer\\2d platformer\\Sprite.cs",
+              "RelativeDocumentMoniker": "2d platformer\\Sprite.cs",
+              "ToolTip": "E:\\c#\\2d platformer\\2d platformer\\Sprite.cs",
+              "RelativeToolTip": "2d platformer\\Sprite.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:13:24.839Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
