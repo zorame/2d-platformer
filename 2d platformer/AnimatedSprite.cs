@@ -15,8 +15,7 @@ namespace _2d_platformer
 {
     internal class AnimatedSprite
     {
-        public Rectangle source;
-        public Rectangle destinationRectangle;
+       
         public Texture2D texture;
         public Vector2 position;
         public int rows {  get; set; }
@@ -25,20 +24,32 @@ namespace _2d_platformer
         private int totalFrames;
         private int interval;
         private int actualframe;
-
-/*        float SCALE = 1.0f;*/
-/*        public Rectangle Rect
+        public Rectangle DestinationRectangle
         {
             get
             {
                 return new Rectangle(
-                (int)position.X,
-                (int)position.Y,
-     texture.Width * (int)SCALE,
-     texture.Height * (int)SCALE
-     );
+                    (int)position.X,
+                    (int)position.Y,
+                    texture.Width / cols,
+                    texture.Width / rows
+                    );
             }
-        }*/
+        }
+
+        /*        float SCALE = 1.0f;*/
+        /*        public Rectangle Rect
+                {
+                    get
+                    {
+                        return new Rectangle(
+                        (int)position.X,
+                        (int)position.Y,
+             texture.Width * (int)SCALE,
+             texture.Height * (int)SCALE
+             );
+                    }
+                }*/
         public AnimatedSprite(Texture2D texture, Vector2 position , int rows,int cols)
         {
             this.texture = texture;
@@ -73,10 +84,10 @@ namespace _2d_platformer
             int height = texture.Height / rows;
             int colums = actualframe / cols;
             int row = actualframe % cols;
-        
-           Rectangle source = new Rectangle(width * colums, height * row , width,height);
-             Rectangle destinationRectangle = new Rectangle((int)position.X ,(int)position.Y , width, height);
-            spritebatch.Draw(texture,destinationRectangle,source,Color.White);
+
+            Rectangle source = new Rectangle(width * colums, height * row, width, height); 
+
+            spritebatch.Draw(texture, DestinationRectangle,source,Color.White);
         }
 }
 }

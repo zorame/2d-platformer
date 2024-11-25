@@ -27,3 +27,33 @@ E:\c#\2d platformer\2d platformer\bin\Debug\net8.0\Content\enemypng.xnb
 E:\c#\2d platformer\2d platformer\bin\Debug\net8.0\Content\player.xnb
 E:\c#\2d platformer\2d platformer\bin\Debug\net8.0\Content\enemy.xnb
 E:\c#\2d platformer\2d platformer\bin\Debug\net8.0\Content\Sprite-0001.xnb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\Content\enemypng.xnb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\Content\enemy.xnb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\Content\player.xnb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\Content\Sprite-0001.xnb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\2d platformer.exe
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\2d platformer.deps.json
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\2d platformer.runtimeconfig.json
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\2d platformer.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\2d platformer.pdb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\MonoGame.Framework.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\NVorbis.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.csproj.AssemblyReference.cache
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.AssemblyInfoInputs.cache
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.AssemblyInfo.cs
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.csproj.CoreCompileInputs.cache
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.sourcelink.json
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platf.85622C49.Up2Date
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\refint\2d platformer.dll
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.pdb
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\2d platformer.genruntimeconfig.cache
+C:\Users\Zorame\projekty\2d-platformer\2d platformer\obj\Debug\net8.0\ref\2d platformer.dll

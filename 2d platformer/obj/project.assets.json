@@ -238,19 +238,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zorame\\.nuget\\packages\\": {}
+    "C:\\Users\\Zorame\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\c#\\2d platformer\\2d platformer\\2d platformer.csproj",
+      "projectUniqueName": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\2d platformer.csproj",
       "projectName": "2d platformer",
-      "projectPath": "E:\\c#\\2d platformer\\2d platformer\\2d platformer.csproj",
-      "packagesPath": "C:\\Users\\zorame\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\2d platformer\\2d platformer\\obj\\",
+      "projectPath": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\2d platformer.csproj",
+      "packagesPath": "C:\\Users\\Zorame\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zorame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zorame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -258,6 +263,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -306,7 +312,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

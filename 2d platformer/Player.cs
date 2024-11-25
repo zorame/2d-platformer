@@ -18,13 +18,18 @@ namespace _2d_platformer
 {   
         public Vector2 Position;
         public List<Sprite> collisionGroup;
-        public Player(Texture2D texture, List<Sprite> collisionGroup, Vector2 position,int rows,int cols) : base(texture, position,rows,cols) { this.collisionGroup = collisionGroup; }
+        public Player(Texture2D texture, List<Sprite> collisionGroup, Vector2 position,int rows,int cols) : base(texture, position,rows,cols) {
+            this.collisionGroup = collisionGroup;
+                this.position = position; }
 
         public override void Update(GameTime gameTime) 
         
         {
+
             base.Update(gameTime);
-           
+
+            //Debug.WriteLine(destinationRectangle);
+            
             float ChangeY = 0;
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
             {
@@ -37,14 +42,15 @@ namespace _2d_platformer
             position.Y += ChangeY;
             foreach (var sprite in collisionGroup)
             {
-                if (sprite.Rect.Intersects(destinationRectangle))
+                if (sprite.Rect.Intersects(DestinationRectangle))
                 {
+              
                     position.Y -= ChangeY;
 
                 }
             }
 
-            float changeX = 0f;
+            float changeX = 0;
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
             {
                 changeX -= +2;
@@ -52,12 +58,14 @@ namespace _2d_platformer
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
                 changeX += 2;
+            
             }
             position.X += changeX;
             foreach (var sprite in collisionGroup)
             {
-                if (sprite.Rect.Intersects(destinationRectangle))
+                if (sprite.Rect.Intersects(DestinationRectangle))
                 {
+                
                     position.X -= changeX;
                 }
             }

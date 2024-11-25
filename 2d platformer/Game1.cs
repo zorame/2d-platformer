@@ -45,18 +45,18 @@ namespace _2d_platformer
                 Exit();
             List<Sprite> killlist = new();
             // TODO: Add your update logic here
-            foreach (var sprite in sprites)
-            {
-                sprite.Update(gameTime);
-                if ( sprite.Rect.Intersects(player.source))
-                {
-                    killlist.Add(sprite);
-                }
-            }
-                foreach (var sprite in killlist)
-                {
-                sprites.Remove(sprite);
-                }
+            //foreach (var sprite in sprites)
+            //{
+            //    sprite.Update(gameTime);
+            //    if ( sprite.Rect.Intersects(player.source))
+            //    {
+            //        killlist.Add(sprite);
+            //    }
+            //}
+            //    foreach (var sprite in killlist)
+            //    {
+            //    sprites.Remove(sprite);
+            //    }
                 player.Update(gameTime);
           
                 
