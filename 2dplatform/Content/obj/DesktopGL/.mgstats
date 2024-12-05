@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/SmileyWalk.png","C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/bin/DesktopGL/SmileyWalk.xnb","TextureProcessor","Texture2DContent",40026,262229,0,1418989
+"C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/Sprite-0001.png","C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/bin/DesktopGL/Sprite-0001.xnb","TextureProcessor","Texture2DContent",1075,65621,0,0045396
+"C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/Sprite-0002.png","C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/bin/DesktopGL/Sprite-0002.xnb","TextureProcessor","Texture2DContent",297,4181,0,0014152
