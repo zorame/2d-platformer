@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/423619686_789324413017250_5683730852322479460_n.png</File>
+    <File>C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/SmileyWalk.png</File>
+    <File>C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/Sprite-0001.png</File>
+    <File>C:/Users/Zorame/source/repos/2dplatform/2dplatform/Content/Sprite-0002.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>n.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
