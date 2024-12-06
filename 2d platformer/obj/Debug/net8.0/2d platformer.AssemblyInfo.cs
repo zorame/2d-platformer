@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2d platformer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+644733f10d24f7106ac449afd608db9389b111bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f683f3113fc16f11628d74b088444ba6de4dcdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("2d platformer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2d platformer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

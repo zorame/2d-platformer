@@ -1,8 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
-
+using System.Diagnostics;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 namespace _2d_platformer
 {
     public class Game1 : Game
@@ -10,6 +13,7 @@ namespace _2d_platformer
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         List<Sprite> sprites;
+        List<Texture2D> textures = new List<Texture2D>();
         Player player;
         AnimatedSprite ani;
         public Game1()
@@ -33,9 +37,10 @@ namespace _2d_platformer
             Texture2D enemy = Content.Load<Texture2D>("enemy");
             // TODO: use this.Content to load your game content here
             sprites = new();
-            Texture2D animation = Content.Load<Texture2D>("Sprite-0001");
+            //Texture2D animation = Content.Load<Texture2D>("Sprite-0001");
+            textures.Add(Content.Load<Texture2D>("Sprite-0001"));
      /*       ani = new AnimatedSprite(animation,sprites,new Vector2 (200,200),4,4);*/
-            player = new Player(animation,sprites,new Vector2(0,0),4,4);
+            player = new Player(textures,sprites,new Vector2(0,0),4,4); 
             sprites.Add(new Sprite(enemy, new Vector2(200, 200)));
         }
 

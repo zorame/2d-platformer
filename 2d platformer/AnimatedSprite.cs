@@ -15,27 +15,30 @@ namespace _2d_platformer
 {
     internal class AnimatedSprite
     {
-       
-        public Texture2D texture;
+
+        public List<Texture2D> texture;
         public Vector2 position;
-        public int rows {  get; set; }
+        public int rows { get; set; }
         public int cols { get; set; }
         private int currentFrame;
         private int totalFrames;
         private int interval;
         private int actualframe;
+        public bool walk = false;
         public Rectangle DestinationRectangle
+
         {
             get
             {
                 return new Rectangle(
                     (int)position.X,
                     (int)position.Y,
-                    texture.Width / cols,
-                    texture.Width / rows
+                    texture[0].Width * 2 / cols,
+                    texture[0].Width * 2 / rows
                     );
             }
-        }
+        } 
+
 
         /*        float SCALE = 1.0f;*/
         /*        public Rectangle Rect
@@ -50,7 +53,8 @@ namespace _2d_platformer
              );
                     }
                 }*/
-        public AnimatedSprite(Texture2D texture, Vector2 position , int rows,int cols)
+
+        public AnimatedSprite(List<Texture2D> textures, Vector2 position , int rows,int cols)
         {
             this.texture = texture;
             this.position = position;
@@ -63,31 +67,37 @@ namespace _2d_platformer
         public virtual void Update(GameTime gametime)
         {
             
-            currentFrame++;
-                if(currentFrame >= interval)
+            if (walk == true)
             {
-                actualframe++;
-                currentFrame = 0;
-        
-            }
-            if (actualframe >= totalFrames)
-            {
-                actualframe = 0;
+                currentFrame++;
+                if (currentFrame >= interval)
+                {
+                    actualframe++;
+                    currentFrame = 0;
+
+                }
+                if (actualframe >= totalFrames)
+                {
+                    actualframe = 0;
+
+                }
 
             }
-   
         }
 
         public void Draw(SpriteBatch spritebatch)
         {
-            int width = texture.Width / cols;
-            int height = texture.Height / rows;
+            int width = texture[0].Width  / cols;
+            int height = texture[0].Height  / rows;
             int colums = actualframe / cols;
             int row = actualframe % cols;
 
-            Rectangle source = new Rectangle(width * colums, height * row, width, height); 
+            Rectangle source = new Rectangle(width * colums, height  * row, width , height );
 
-            spritebatch.Draw(texture, DestinationRectangle,source,Color.White);
+
+
+            spritebatch.Draw(texture[0], DestinationRectangle, source, Color.White);
+            
         }
 }
 }

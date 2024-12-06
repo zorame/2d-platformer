@@ -18,9 +18,20 @@ namespace _2d_platformer
 {   
         public Vector2 Position;
         public List<Sprite> collisionGroup;
-        public Player(Texture2D texture, List<Sprite> collisionGroup, Vector2 position,int rows,int cols) : base(texture, position,rows,cols) {
+        public Player(Texture2D texture, List<Sprite> collisionGroup, Vector2 position,int rows,int cols) : base(List < Texture2D > textures, position,rows,cols) {
             this.collisionGroup = collisionGroup;
-                this.position = position; }
+                this.position = position;
+           
+        }
+
+
+
+        public float speed = 0;
+        private List<Texture2D> textures;
+        private List<Sprite> sprites;
+        private Vector2 vector2;
+        private int v1;
+        private int v2;
 
         public override void Update(GameTime gameTime) 
         
@@ -28,48 +39,78 @@ namespace _2d_platformer
 
             base.Update(gameTime);
 
-            //Debug.WriteLine(destinationRectangle);
-            
+
+       
+            float changeX = 0;
             float ChangeY = 0;
             if (Keyboard.GetState().IsKeyDown(Keys.Up))
             {
-                ChangeY -= 2;
+                ChangeY -= 0.5f ;
+                walk = true;
+                if (speed <= 5f)
+                {
+                    speed = speed + 0.1f;
+                }
+
             }
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
             {
-                ChangeY += 2;
+                ChangeY += 0.5f;
+                walk = true;
+                if (speed <= 5f)
+                {
+                    speed = speed + 0.1f;
+                }
             }
-            position.Y += ChangeY;
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
+            {
+                changeX -= 0.5f;
+                walk = true;
+                if (speed <= 5f)
+                {
+                    speed = speed + 0.1f;
+                }
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
+            {
+                changeX += 0.5f;
+                walk = true;
+                if (speed <= 5f)
+                {
+                    speed = speed + 0.1f;
+                }
+            }
+            if (changeX == 0 && ChangeY == 0)
+            {
+                walk = false;
+                if (speed > 0) {
+                    speed -= 0.5f;
+                }
+            }
+
+            Debug.WriteLine(speed);
+            position.Y += ChangeY * speed;
             foreach (var sprite in collisionGroup)
             {
                 if (sprite.Rect.Intersects(DestinationRectangle))
                 {
               
-                    position.Y -= ChangeY;
+                    position.Y -= ChangeY * speed ;
+                  
 
                 }
             }
-
-            float changeX = 0;
-            if (Keyboard.GetState().IsKeyDown(Keys.Left))
-            {
-                changeX -= +2;
-            }
-            if (Keyboard.GetState().IsKeyDown(Keys.Right))
-            {
-                changeX += 2;
-            
-            }
-            position.X += changeX;
+            position.X += changeX * speed;
             foreach (var sprite in collisionGroup)
             {
                 if (sprite.Rect.Intersects(DestinationRectangle))
                 {
-                
-                    position.X -= changeX;
+                    
+                    position.X -= changeX * speed;
                 }
             }
         }
 
+ 
 }
 }

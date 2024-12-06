@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Zorame\\projekty\\2d-platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\content\\sprite-0001.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\content\\sprite-0001.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|c:\\users\\zorame\\projekty\\2d-platformer\\2d platformer\\content\\mainchar.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7485C3C6-6BE0-4894-ACBB-AEFE1A27E890}|2d platformer\\2d platformer.csproj|solutionrelative:2d platformer\\content\\mainchar.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,12 +37,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 404,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Game1.cs",
+              "RelativeDocumentMoniker": "2d platformer\\Game1.cs",
+              "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Game1.cs",
+              "RelativeToolTip": "2d platformer\\Game1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwCoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:13:51.35Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Program.cs",
               "RelativeDocumentMoniker": "2d platformer\\Program.cs",
@@ -43,98 +64,71 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T09:45:13.307Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Game1.cs",
-              "RelativeDocumentMoniker": "2d platformer\\Game1.cs",
-              "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Game1.cs",
-              "RelativeToolTip": "2d platformer\\Game1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T17:13:51.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Sprite.cs",
               "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Sprite.cs",
               "RelativeDocumentMoniker": "2d platformer\\Sprite.cs",
               "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Sprite.cs",
               "RelativeToolTip": "2d platformer\\Sprite.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T17:13:24.839Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "7c529aff-9941-4fab-bb61-44a3b649e230",
-        "Display": 0,
-        "X": 766,
-        "Y": 141,
-        "Width": 1553,
-        "Height": 792,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "IsPinned": true
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Player.cs",
               "RelativeDocumentMoniker": "2d platformer\\Player.cs",
               "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Player.cs",
               "RelativeToolTip": "2d platformer\\Player.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwEEAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwBUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T17:13:35.288Z",
               "EditorCaption": ""
             }
           ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "a5ff53a7-750f-4c36-a81e-6b5433122261",
-        "Display": 0,
-        "X": 143,
-        "Y": 143,
-        "Width": 1553,
-        "Height": 855,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
+        },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 359,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Sprite-0001.png",
+              "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Content\\Sprite-0001.png",
+              "RelativeDocumentMoniker": "2d platformer\\Content\\Sprite-0001.png",
+              "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Content\\Sprite-0001.png",
+              "RelativeToolTip": "2d platformer\\Content\\Sprite-0001.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-04T07:28:15.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "mainchar.png",
+              "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Content\\mainchar.png",
+              "RelativeDocumentMoniker": "2d platformer\\Content\\mainchar.png",
+              "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\Content\\mainchar.png",
+              "RelativeToolTip": "2d platformer\\Content\\mainchar.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-04T07:28:14.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AnimatedSprite.cs",
               "DocumentMoniker": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\AnimatedSprite.cs",
               "RelativeDocumentMoniker": "2d platformer\\AnimatedSprite.cs",
               "ToolTip": "C:\\Users\\Zorame\\projekty\\2d-platformer\\2d platformer\\AnimatedSprite.cs",
               "RelativeToolTip": "2d platformer\\AnimatedSprite.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFkAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T10:01:31.26Z",
               "EditorCaption": ""
